@@ -96,12 +96,6 @@ library, real-time editing, Express.js backend, MSSQL persistence.
 
 `React 19` `Express.js` `MSSQL` `Craft.js`
 
-#### 🤖 [AI Design Assistant](https://github.com/Yuravolontir/Ai-Design-Asistant)
-AI-powered design tool recommending color palettes and slogans based on project type and mood.
-Uses **brain.js** neural networks for color classification, LSTM for slogan generation.
-
-`JavaScript` `brain.js` `Neural Networks` `LSTM`
-
 ---
 
 ### 📜 Certifications
