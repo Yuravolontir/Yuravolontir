@@ -1,9 +1,7 @@
 <div align="center">
 
 # Yura Volontir
-### Software Engineer · Full-Stack · AI/ML
-
-*Software Engineering Student at Ruppin College (Machon Atid)*
+### Junior Full-Stack Developer · .NET · React · AI
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-yuravolontir.netlify.app-black?style=flat-square&logo=netlify)](https://yuravolontir.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yura_Volontir-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/yura-volontir-8790a4362/)
@@ -15,15 +13,16 @@
 
 ### 👨‍💻 About Me
 
-Software engineering student with hands-on experience in full-stack web development, mobile
-apps, distributed backends, database design, and AI-assisted systems. Passionate about building
-clean, functional software and exploring the intersection of AI and user experience.
+Junior full-stack developer who builds complete products: web and mobile front ends, .NET and
+Node.js backends, databases, deployment, and AI features that solve a real problem. My projects
+are live and documented, from a website builder that generates sites from one sentence to a
+microservice system that keeps an AI agent from approving payments on its own.
 
-- 🎓 Studying **Software Engineering** at Ruppin College (Machon Atid) · 2024–2026
+- 🎓 **Software Engineering**, Ruppin College (Machon Atid) · 2024–2026
 - 🌐 Currently building a **3D interactive portfolio** with Three.js & GSAP
 - 🤖 Interested in **AI/ML** — agents, neural networks, NLP, RAG pipelines
 - 📍 Israel
-- 💼 **Open to work** — Junior/Mid Full-Stack or Frontend positions
+- 💼 **Open to work**: Junior Full-Stack, Backend or Frontend positions
 
 ---
 
@@ -78,23 +77,26 @@ clean, functional software and exploring the intersection of AI and user experie
 AI-assisted invoice approval system. An AI agent scores invoices against company expense policy;
 a **deterministic router** enforces amount ceilings and fraud rules, then auto-approves,
 escalates, or rejects. .NET 9 microservices on **Dapr** with a YARP gateway and saga-based
-payment compensation.
+payment compensation. 20/20 routing accuracy on labelled invoices with zero false approvals.
 
 `C# / .NET 9` `Dapr` `Blazor` `Docker`
 
 #### 🌿 [Plant Doctor](https://github.com/Yuravolontir/plant-doctor)
-Mobile plant-care app. The user photographs a plant, **Plant.id** identifies the species, and the
-app schedules watering with push reminders. React Native and Expo front end over a .NET 9 REST
-API with JWT auth, EF Core migrations, and PostgreSQL.
+Mobile plant-care app. Photograph a plant and **Plant.id** identifies the species, diagnoses
+diseases and pests with treatment advice, and writes a care guide; the app plans watering,
+sends reminders and keeps a growth journal with stats. React Native (Expo SDK 57) over a .NET 9
+REST API with JWT auth, EF Core migrations and PostgreSQL on Neon.
 
 `React Native` `.NET 9` `PostgreSQL` `Expo`
 
-#### 🏗️ [Visual Website Builder](https://github.com/Yuravolontir/DragCanvas)
-Full-stack drag-and-drop website builder with a visual editor powered by **Craft.js**. Component
-library, real-time editing, Express.js backend, MSSQL persistence.
-[Live demo →](https://dragcanvasapp.netlify.app/)
+#### 🏗️ [DragCanvas](https://github.com/Yuravolontir/DragCanvas)
+AI website builder: describe a site in one sentence, the AI lays it out with real stock media,
+then refine it in a **Craft.js** drag-and-drop editor and publish it live to Netlify. Contact
+forms, per-site analytics, email notifications and an admin area with charts from a Python
+reports service.
+[Live demo](https://dragcanvasapp.netlify.app/)
 
-`React 19` `Express.js` `MSSQL` `Craft.js`
+`React 19` `Craft.js` `Node.js / Express` `PostgreSQL` `FastAPI`
 
 ---
 
